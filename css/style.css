@@ -100,10 +100,24 @@ nav {
     position: relative;
 }
 
+.option {
+    position: relative;
+}
+
 .select::after {
     content: "";
     position: absolute;
     background-color: var(--main-color);
+    height: 30px;
+    width: 100%;
+    left: 0;
+    bottom: 45px;
+}
+
+.option::after {
+    content: "";
+    position: absolute;
+    background-color: white;
     height: 30px;
     width: 100%;
     left: 0;
@@ -413,16 +427,27 @@ ul {
     nav {
         width: 100%;
         justify-content: center;
+        gap: 0;
     }
 
     nav>a {
         text-align: center;
-        width: 100%;
+        flex: 1;
     }
 
     .select::after {
         bottom: -10px;
         height: 3px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .option::after {
+        background: #F2F2F2;
+        bottom: -10px;
+        height: 3px;
+        position: absolute;
+        width: 100%;
     }
 
     /* Hero Info */
