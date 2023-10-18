@@ -269,6 +269,10 @@ nav {
     margin-bottom: 30px;
 }
 
+.cards-container {
+    justify-content: space-evenly;
+}
+
 .hebergements {
     width: 65%;
 }
@@ -387,7 +391,12 @@ nav {
 }
 
 .populaires-card figure {
-    height: 145px;
+    min-height: 145px;
+    width: 100px;
+}
+
+.populaires-card figcaption {
+    flex: 1 0 0;
 }
 
 /****** Activites *******/
@@ -497,6 +506,10 @@ ul {
         margin-top: 50px;
     }
 
+    .cards-container {
+        align-items: stretch;
+    }
+
     .populaires-cards {
         display: flex;
         flex-direction: row;
@@ -517,6 +530,10 @@ ul {
 
     .populaires .cards-container {
         flex-wrap: nowrap;
+    }
+
+    .populaires-card figure {
+        width: 100px;
     }
 }
 
