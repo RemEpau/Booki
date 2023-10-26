@@ -12,7 +12,8 @@ Mon objectif est de reproduire le design fournis par Loïc, depuis Figma, vers u
 
 Voici le [design figma](https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?type=design&node-id=3-0&mode=design&t=ocmeQSb3IKQ5e7Ry-0) fournis avec le sujet.
 
-![Version Desktop](images/readme/Booki-Desktop.png)
-*Capture d'écran depuis le site web*
+[Version Desktop](images/readme/Booki-Desktop.png) | [Version Tablette](images/readme/Booki-Desktop.png) | [Version Téléphone](images/readme/Booki-Phone.png)
+
+Les captures d'écran ont été prises depuis le site web.
 
 *Note: Ce site à été réaliser avec la méthodologie **Desktop First***
