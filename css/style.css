@@ -337,7 +337,8 @@ nav {
     font-weight: 700;
     font-size: 18px;
     width: 100%;
-    align-self: center;
+    margin-top: 25px;
+
 }
 
 /****** Populaires ******/
@@ -358,15 +359,15 @@ nav {
     flex-direction: row;
 }
 
-.populaires-card {
+.populaires-cards .card {
     flex-direction: row;
 }
 
-.populaires-card figure {
-    width: 33%;
+.populaires-cards figure {
+    width: 100%;
 }
 
-.populaires-card .card-content {
+.populaires-cards .card-content {
     display: flex;
     justify-content: flex-start;
     padding: 0px 15px;
@@ -374,24 +375,24 @@ nav {
     gap: 8px;
 }
 
-.populaires-card .card-rating {
+.populaires-cards .card-rating {
     margin-top: auto;
 }
 
-.populaires-card img {
-    width: 100%;
+.populaires-cards img {
+    width: 33%;
     height: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 0px;
 }
 
-.populaires-card figure {
+.populaires-cards figure {
     min-height: 145px;
-    width: 100px;
+    display: flex;
 }
 
-.populaires-card figcaption {
+.populaires-cards figcaption {
     flex: 1 0 0;
 }
 

@@ -54,10 +54,6 @@
   .populaires .cards-container {
     flex-wrap: nowrap;
   }
-
-  .populaires-card figure {
-    width: 100px;
-  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -171,15 +167,16 @@
     width: 100%;
   }
 
+  .populaires-cards img {
+    max-height: 145px;
+  }
+
   .populaires .cards-container {
     flex-wrap: wrap;
   }
 
-  /* Hébergements */
 
-  .hebergements section {
-    background: #DEEBFF;
-  }
+  /* Hébergements */
 
   .cards {
     width: 100%;
