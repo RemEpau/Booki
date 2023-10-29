@@ -153,7 +153,7 @@ nav {
 
 /****** Section Info *********/
 
-.hero-info section {
+.info {
     width: 100%;
     border-radius: 20px;
     padding-bottom: 30px;
@@ -408,24 +408,24 @@ nav {
     align-self: stretch;
 }
 
-.container-card {
+.activites-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 30px;
 }
 
-.container-card a {
+.activites-container a {
     flex: 1 0 0;
 }
 
-.container-card figure {
+.activites-container figure {
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
     height: 100%;
 }
 
-.container-card img {
+.activites-container img {
     border-radius: 20px 20px 0px 0px;
     height: 380px;
     object-fit: cover;
@@ -471,7 +471,7 @@ ul {
 
     /* Activités */
 
-    .container-card img {
+    .activites-container img {
         border-radius: 20px 20px 0px 0px;
         height: 200px;
         object-fit: cover;
@@ -570,7 +570,7 @@ ul {
 
     /* Hero Info */
 
-    .hero-info section {
+    .info {
         padding: 30px;
         margin-bottom: 0px;
     }
@@ -652,18 +652,18 @@ ul {
 
     /* Activités */
 
-    .container-card {
+    .activites-container {
         width: 100%;
         flex-wrap: wrap;
         flex-direction: column;
         gap: 15px;
     }
 
-    .container-card img {
+    .activites-container img {
         width: 100%;
     }
 
-    .container-card a {
+    .activites-container a {
         width: 100%;
     }
 
